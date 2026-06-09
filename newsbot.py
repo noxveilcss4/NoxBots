@@ -6,6 +6,8 @@ from deep_translator import GoogleTranslator
 TOKEN = 'bot token'
 CHANNEL_ID = 'channel ID'
 
+#----- Burayı doldurmayı unutmayın
+
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
